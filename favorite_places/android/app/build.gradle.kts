@@ -24,7 +24,7 @@ android {
         applicationId = "com.example.favorite_places"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
-        minSdk = flutter.minSdkVersion
+        minSdk = 22
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
@@ -39,6 +39,13 @@ android {
     }
 }
 
+dependencies {
+    implementation("com.baidu.lbsyun:BaiduMapSDK_Map:7.5.4")
+    implementation("com.baidu.lbsyun:BaiduMapSDK_Search:7.5.4")
+    implementation("com.baidu.lbsyun:BaiduMapSDK_Util:7.5.4")
+}
+
 flutter {
     source = "../.."
 }
+

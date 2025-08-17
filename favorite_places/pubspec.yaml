@@ -37,6 +37,16 @@ dependencies:
   google_fonts: ^6.3.0
   uuid: ^4.5.1
   flutter_riverpod: ^2.6.1
+  image_picker: ^1.1.2
+  location: ^8.0.1
+  http: ^1.5.0
+  permission_handler: ^12.0.1
+  flutter_baidu_mapapi_base: ^3.9.2
+  flutter_baidu_mapapi_map: ^3.9.2
+  flutter_baidu_mapapi_utils: ^3.9.2
+  flutter_baidu_mapapi_search: ^3.9.2
+
+  flutter_bmflocation: ^3.4.0
 
 dev_dependencies:
   flutter_test:
